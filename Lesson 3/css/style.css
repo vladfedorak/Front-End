@@ -92,5 +92,10 @@ body{
 
   .banner button:hover {
     background-color: white;
-    color: blue;
+    color: black;
+  }
+
+  p {
+    text-shadow: darkblue;
+    padding-bottom: 12px;
   }

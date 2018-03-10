@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Моє меню</title>
+    <style>
+       body{
+           background-color:darkgray;
+           margin: 0;
+       }
+       .menu{
+           background-color: royalblue;
+           margin: 0;
+           list-style-type: none;
+           overflow: hidden;
+           padding: 0;
+       }
+       .menu-item-left{
+           float: left;
+           border-right-style: solid;
+           border-right-width: 1px;
+           border-right-color: white;
+       }
+       .menu-item-right{
+       float: right;
+      }
+
+       .menu-ref{
+           display: block;
+           padding: 10px 20px;
+           color: white;
+           font-size: 1.5rem;
+           text-decoration: none;
+       }
+       .active{
+           background-color: darkblue;
+       }
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li class="menu-item-left">
+            <a class="menu-ref active" href="#">Головна</a>
+        </li>
+        <li class="menu-item-left">
+            <a class="menu-ref" href="#">Хоббі</a>
+        </li>
+        <li class="menu-item-left">
+            <a class="menu-ref" href="#">Фотки</a>
+        </li>
+        <li class="menu-item-right">
+            <a class="menu-ref" href="#">Contacts</a>
+        </li>
+    </ul>
+</body>
+</html>

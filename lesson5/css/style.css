@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    padding: 20px 10px;
+    color: gainsboro;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: gainsboro;
+}
+
+footer form input, textarea {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+/* Gallery */
+
+.main-gal figure img{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.main-gal figure figcaption p {
+    font-size: 0.8rem;
+}
+
+.main-gal figure figcaption p, h3, button {
+    margin-left: 10px;
+}
+
+.main-gal figure {
+    -webkit-box-shadow: 0px 10px 5px 0px rgba(163,160,163,1);
+    -moz-box-shadow: 0px 10px 5px 0px rgba(163,160,163,1);
+    box-shadow: 0px 10px 5px 0px rgba(163,160,163,1);
+    padding-bottom: 20px;
+}
+
+/*Aside menu*/
+
+main aside {
+    background-color: #333;
+    color: white;
+}
+
+.aside-menu-hide {
+    position: relative;
+    left: -200%;
+    height: 0;
+    transition: left 400ms;
+    -moz-transition: left 400ms;
+    -webkit-transition: left 400ms;
+}
+
+.aside-menu-show {
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    transition: left 400ms;
+    -moz-transition: left 400ms;
+    -webkit-transition: left 400ms;
+}
+
+/* Buttons */
+
+.btn-outline {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid transparent;
+    line-height: 1.4;
+    padding: 0.14286rem 0.5rem;
+    font-size: 0.78571rem;
+    border-radius: 50px;
+}
+
+.btn-outline.btn-outline-blue {
+    color: #3398dc;
+    border-color: #3398dc;
+    background-color: transparent;
+}
+
+.btn-outline.btn-outline-blue:hover {
+    color: white;
+    border-color: white;
+    background-color: #3398dc;
+}
+
+.btn-outline.btn-outline-deeporange {
+    color: #fe541e;
+    border-color: #fe541e;
+    background-color: transparent;
+}
+
+.btn-outline.btn-outline-blue:hover {
+    color: white;
+    border-color: white;
+    background-color: red;
+}
+
+.btn-outline.btn-outline-dark {
+    color: #333;
+    border-color: #333;
+    background-color: transparent;
+}
+
+.btn-outline.btn-outline-dark:hover {
+    color: white;
+    border-color: white;
+    background-color: #333;
+}
+
+.btn-outline.btn-outline-red {
+    color: red;
+    border-color: red;
+    background-color: transparent;
+}
+
+.btn-outline.btn-outline-red:hover {
+    color: white;
+    border-color: white;
+    background-color: red;
+}
+

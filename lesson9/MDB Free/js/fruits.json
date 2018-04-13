@@ -1,0 +1,57 @@
+[
+
+    {
+        "name": "Satsuma Mandarins",
+        "brand": "Family Tree Farms",
+        "image": "tang_stsma_bag_z.jpg",
+        "price": 7.99
+    },
+    {
+        "name": "Blueberries",
+        "brand": "Driscoll's Jumbo",
+        "image": "fru_pid_2210412_z.jpg",
+        "price": 5.99
+    },
+    {
+        "name": "Apples",
+        "brand": "Organic Lady Alice",
+        "image": "frorg_ldyalcappl_z.jpg",
+        "price": 6.99
+    },
+    {
+        "name": "Honeycrisp Apples",
+        "brand": "Rainier Organic",
+        "image": "fru_apl_hnycrsp_org4_z.jpg",
+        "price": 9.99
+    },
+    {
+        "name": "Pink Lady Apples",
+        "brand": "Rainier Organic",
+        "image": "fru_apl_pnkldy_4pk_z.jpg",
+        "price": 6.99
+    },
+    {
+        "name": "Organic Opal Apples",
+        "brand": "Rainier Organic",
+        "image": "fru_dmy_10091_z.jpg",
+        "price": 5.99
+    },
+    {
+        "name": "Fuji Apples",
+        "brand": "Rainier Organic",
+        "image": "fru_pid_2210739_z.jpg",
+        "price": 4.99
+    },
+    {
+        "name": "Empire Apples",
+        "brand": "Red Jacket Orchards",
+        "image": "fru_rjo_empire_4pk_z.jpg",
+        "price": 3.99
+    },
+    {
+        "name": "Hass Avocado",
+        "brand": "Avocados from Mexico",
+        "image": "avc_has_z.jpg",
+        "price": 1.99
+    }
+];

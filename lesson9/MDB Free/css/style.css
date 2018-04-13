@@ -1,0 +1,12 @@
+/* Your custom styles */
+
+.card-img-top {
+    margin: 10px auto 2px auto;
+    width: 60%;
+    height: auto;
+    border: 1px solid gray;
+}
+
+.card-title {
+    text-align: center;
+}
